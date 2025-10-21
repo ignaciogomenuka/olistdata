@@ -2,6 +2,10 @@
 
 Brazilian e-commerce data analysis project using the Olist dataset to uncover insights about delivery times, customer satisfaction, and revenue patterns.
 
+## 📊 Presentation
+
+Full analysis and findings available in: [OlistDataPresentation.pdf](./OlistDataPresentation.pdf)
+
 ## Dataset
 
 Source: [Olist Brazilian E-Commerce Public Dataset](https://wagon-public-datasets.s3.amazonaws.com/olist/olist.zip)
@@ -87,7 +91,16 @@ jupyter notebook Untitled.ipynb
 
 ## Data Schema
 
-The analysis merges the following datasets:
+The dataset consists of multiple interconnected tables that provide a comprehensive view of the e-commerce operations:
+
+### Database Schema Overview
+
+![Database Schema - Part 1](./Captura%20de%20pantalla%202025-10-21%20040815.png)
+
+![Database Schema - Part 2](./Captura%20de%20pantalla%202025-10-21%20040834.png)
+
+### Datasets Used
+
 - `olist_orders_dataset.csv` - Order information
 - `olist_customers_dataset.csv` - Customer data
 - `olist_order_items_dataset.csv` - Items per order
@@ -95,6 +108,8 @@ The analysis merges the following datasets:
 - `olist_order_payments_dataset.csv` - Payment details
 - `olist_order_reviews_dataset.csv` - Customer reviews
 - `olist_sellers_dataset.csv` - Seller information
+- `olist_geolocation_dataset.csv` - Geolocation data
+- `product_category_name_translation.csv` - Category translations
 
 ## Author
 
